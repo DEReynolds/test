@@ -7,5 +7,9 @@ switch access vlan 44
 spanning-tree portfast
 !
 end
+conf t
+line con 0
+logg sync
+end
 wr
 !
