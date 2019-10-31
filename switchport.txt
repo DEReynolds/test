@@ -1,0 +1,11 @@
+!
+conf t
+int range e0/0-3
+no shut
+switch mo access
+switch access vlan 44
+spanning-tree portfast
+!
+end
+wr
+!
